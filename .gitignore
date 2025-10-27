@@ -1,0 +1,75 @@
+# WordPress Plugin .gitignore
+
+# WordPress core files
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/cache/supercache/
+
+# Plugin specific
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Node.js (if using build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer
+vendor/
+composer.lock
+
+# Build files
+dist/
+build/
+*.min.js
+*.min.css
+
+# Documentation files (except README and SECURITY)
+VERSIONING-STRATEGY.md
+IMPLEMENTATION-GUIDE.md
+CODECANYON_COMPLIANCE_TASKS.md
+AUDIT_REPORT.md
+COMPLIANCE_REPORT.md
+SIMPLIFIED-STRATEGY.md
+DATABASE_COMPLIANCE_REPORT.md
+ASSET_LOADING_COMPLIANCE_REPORT.md
+TESTING_GUIDE.md
+# Temporary files
+*.temp
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# WordPress specific
+wp-config-local.php
+wp-content/debug.log
+wp-content/uploads/
+
+# Plugin development
+*.zip
+*.tar.gz

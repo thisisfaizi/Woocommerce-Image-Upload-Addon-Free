@@ -1,0 +1,214 @@
+/**
+ * Custom Product Image Upload - Lite Version Frontend Styles
+ * Styles for upgrade prompts and disabled premium features
+ */
+
+/* Upgrade Overlay Container */
+.cpiu-upgrade-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.cpiu-upgrade-overlay.cpiu-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    filter: grayscale(50%);
+}
+
+/* Upgrade Prompt Badge */
+.cpiu-upgrade-prompt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, #6e5c74 0%, #54425b 100%);
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(84, 66, 91, 0.5);
+    text-align: center;
+    z-index: 1000;
+    pointer-events: all;
+    min-width: 280px;
+    animation: cpiu-pulse 2s ease-in-out infinite;
+}
+
+@keyframes cpiu-pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+}
+
+.cpiu-upgrade-prompt h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.cpiu-upgrade-prompt p {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+}
+
+.cpiu-upgrade-button {
+    display: inline-block;
+    background: #fff;
+    color: #54425b;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cpiu-upgrade-button:hover {
+    background: #BBA9B4;
+    color: #54425b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Feature Lock Icon */
+.cpiu-feature-locked {
+    position: relative;
+}
+
+.cpiu-feature-locked::before {
+    content: "🔒";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+/* Disabled Cropper Modal in Lite */
+#cpiu-cropper-modal.cpiu-lite-disabled {
+    display: none !important;
+}
+
+/* Pro Feature Badge */
+.cpiu-pro-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #BBA9B4 0%, #d4c4ce 100%);
+    color: #54425b;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 8px;
+    vertical-align: middle;
+    box-shadow: 0 2px 8px rgba(110, 92, 116, 0.3);
+    border: 1px solid #6e5c74;
+}
+
+/* Lite Version Notice */
+.cpiu-lite-notice {
+    background: #BBA9B4;
+    border-left: 4px solid #6e5c74;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.cpiu-lite-notice p {
+    margin: 0 0 10px 0;
+    color: #54425b;
+    font-size: 14px;
+}
+
+.cpiu-lite-notice p:last-child {
+    margin-bottom: 0;
+}
+
+.cpiu-lite-notice strong {
+    color: #54425b;
+    font-weight: 600;
+}
+
+/* Disabled Feature Wrapper */
+.cpiu-feature-disabled-wrapper {
+    position: relative;
+    padding: 20px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    margin: 15px 0;
+}
+
+.cpiu-feature-disabled-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(2px);
+    z-index: 5;
+}
+
+/* Comparison Table Styles */
+.cpiu-comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.cpiu-comparison-table th,
+.cpiu-comparison-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.cpiu-comparison-table th {
+    background: #BBA9B4;
+    font-weight: 600;
+    color: #54425b;
+}
+
+.cpiu-comparison-table .cpiu-feature-available {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.cpiu-comparison-table .cpiu-feature-unavailable {
+    color: #ef4444;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cpiu-upgrade-prompt {
+        min-width: 240px;
+        padding: 15px 20px;
+    }
+    
+    .cpiu-upgrade-prompt h4 {
+        font-size: 16px;
+    }
+    
+    .cpiu-upgrade-prompt p {
+        font-size: 13px;
+    }
+    
+    .cpiu-upgrade-button {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+}

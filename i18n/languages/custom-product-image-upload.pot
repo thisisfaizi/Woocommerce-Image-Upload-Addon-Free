@@ -1,0 +1,429 @@
+# Copyright (C) 2024 Custom Product Image Upload
+# This file is distributed under the same license as the Custom Product Image Upload package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Product Image Upload 1.1\n"
+"Report-Msgid-Bugs-To: https://nowdigiverse.com/contact\n"
+"POT-Creation-Date: 2024-09-30 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: custom-product-image-upload.php:85
+msgid "Custom Product Image Upload"
+msgstr ""
+
+#: custom-product-image-upload.php:86
+msgid "Allow customers to upload custom images for WooCommerce products with advanced features."
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:45
+msgid "Custom Product Image Upload Settings"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:46
+msgid "CPIU Settings"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:95
+msgid "Settings"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:96
+msgid "Multi-Product Configuration"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:97
+msgid "Cache Management"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:98
+msgid "Import/Export"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:99
+msgid "Uninstall"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:106
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:109
+msgid "Maximum File Size (MB)"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:115
+msgid "Allowed File Types"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:121
+msgid "Maximum Images Per Product"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:127
+msgid "Enable Image Cropping"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:132
+msgid "Enable Resolution Validation"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:137
+msgid "Minimum Image Width (px)"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:143
+msgid "Minimum Image Height (px)"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:149
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:156
+msgid "Product Configuration"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:159
+msgid "Search Products"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:164
+msgid "Selected Products"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:169
+msgid "Configuration Options"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:172
+msgid "Enable Upload"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:177
+msgid "Required Images"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:183
+msgid "Maximum Images"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:189
+msgid "Image Width (px)"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:195
+msgid "Image Height (px)"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:201
+msgid "Save Default Settings"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:202
+msgid "Add Configuration"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:203
+msgid "Apply to Selected Products"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:209
+msgid "Cache Management"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:212
+msgid "Clear Cache"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:213
+msgid "Refresh Cache"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:219
+msgid "Import/Export Configuration"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:222
+msgid "Export Configuration"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:225
+msgid "Import Configuration"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:226
+msgid "Choose File"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:227
+msgid "Import"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:233
+msgid "Uninstall Options"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:236
+msgid "Remove all plugin data on uninstall"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:241
+msgid "Keep plugin data on uninstall"
+msgstr ""
+
+#: includes/class-cpiu-admin-interface.php:246
+msgid "Save Uninstall Preference"
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:89
+msgid "Invalid product ID."
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:95
+msgid "Product not found."
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:115
+msgid "Configuration saved successfully."
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:117
+msgid "Failed to save configuration."
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:139
+msgid "Configuration deleted successfully."
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:141
+msgid "Failed to delete configuration."
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:163
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:169
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/class-cpiu-ajax-handler.php:175
+msgid "No products selected."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:85
+msgid "Upload Your Images"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:90
+msgid "Choose Images"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:95
+msgid "Please upload exactly %d images. Maximum file size: %s. Allowed formats: %s."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:102
+msgid "Tip:"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:103
+msgid "Click on any uploaded image to crop it to your desired size."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:115
+msgid "Crop Image"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:118
+msgid "Image to crop"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:122
+msgid "Save Crop"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:123
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:131
+msgid "Uploading Your Images"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:134
+msgid "Please wait..."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:280
+msgid "File size exceeds limit. Maximum allowed: {max_size}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:281
+msgid "Invalid file type. Allowed types: {allowed_types}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:282
+msgid "Please upload exactly {required_count} images."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:283
+msgid "Maximum {max_count} images allowed."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:284
+msgid "Image resolution too low. Minimum: {min_width}x{min_height}px"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:285
+msgid "Uploading images..."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:286
+msgid "Upload completed successfully!"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:287
+msgid "Upload failed: {message}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:288
+msgid "Server error during upload. Status: {status}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:289
+msgid "Network error during upload."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:290
+msgid "Cropping image..."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:291
+msgid "Image cropped successfully!"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:292
+msgid "Failed to crop image: {message}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:293
+msgid "Server error during cropping. Status: {status}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:294
+msgid "Network error during cropping."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:295
+msgid "Deleting image..."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:296
+msgid "Image deleted successfully!"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:297
+msgid "Failed to delete image: {message}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:298
+msgid "Server error during deletion. Status: {status}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:299
+msgid "Network error during deletion."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:300
+msgid "Loading images..."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:301
+msgid "Images loaded successfully!"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:302
+msgid "Failed to load images: {message}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:303
+msgid "Server error during loading. Status: {status}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:304
+msgid "Network error during loading."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:305
+msgid "Validating image resolution..."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:306
+msgid "Image resolution validated successfully!"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:307
+msgid "Failed to validate image resolution: {message}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:308
+msgid "Server error during validation. Status: {status}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:309
+msgid "Network error during validation."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:310
+msgid "Processing upload..."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:311
+msgid "Upload processed successfully!"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:312
+msgid "Failed to process upload: {message}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:313
+msgid "Server error during Uploading. Status: {status}"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:314
+msgid "Network error during Uploading."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:315
+msgid "No images uploaded yet. Click \"Upload Images\" above to add your images."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:316
+msgid "Click to crop"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:317
+msgid "Delete image"
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:318
+msgid "Could not crop image."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:319
+msgid "Unknown server error."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:320
+msgid "Could not load image for resolution validation."
+msgstr ""
+
+#: includes/class-cpiu-frontend-manager.php:507
+msgid "Add to Cart"
+msgstr ""
