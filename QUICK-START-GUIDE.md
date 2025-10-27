@@ -51,7 +51,7 @@ if (cpiu_is_feature_enabled('multi_product')) {
 
 ### Installing Lite Version
 
-1. **Download** the plugin
+1. **Download** the plugin from GITHUB or from Wordpress Repository
 2. **Upload** to WordPress:
    - Plugins > Add New > Upload Plugin
    - Choose the .zip file
@@ -83,7 +83,7 @@ if (cpiu_is_feature_enabled('multi_product')) {
 
 When you're ready for unlimited products:
 
-1. **Purchase Pro** from our website
+1. **Purchase Pro** from our website or wpbay.com
 2. **Download** Pro version
 3. **Deactivate Lite** (Settings preserved!)
 4. **Upload & Activate Pro**
@@ -121,8 +121,8 @@ When you're ready for unlimited products:
 
 ## Troubleshooting
 
-### "Can't add second product"
-**This is expected!** Lite version supports only 1 product. 
+### "Can't add multiple products at once"
+**This is expected!** Lite version supports only single product configuration. 
 
 **Solution**: Upgrade to Pro for unlimited products.
 
@@ -147,7 +147,7 @@ When you're ready for unlimited products:
 ## Support
 
 ### Lite Version
-- Email: support@nowdigiverse.com
+- Email: hello@nowdigiverse.com
 - Response time: 48-72 hours
 - Community forum support
 
@@ -165,7 +165,7 @@ When you're ready for unlimited products:
 **A:** No! All data is preserved. Upgrade is seamless.
 
 ### Q: Can I downgrade from Pro to Lite?
-**A:** Yes, but you'll be limited to 1 product configuration again.
+**A:** Yes, but you'll be limited to single product configuration at once.
 
 ### Q: Do customers need accounts to upload?
 **A:** No! Guest upload is supported in both versions.
@@ -189,8 +189,6 @@ When you're ready for unlimited products:
 
 ## Resources
 
-- **Documentation**: See LITE-VERSION-IMPLEMENTATION.md
-- **Technical Plan**: See TECHNICAL-IMPLEMENTATION-PLAN.md
 - **Website**: https://nowdigiverse.com
 - **Upgrade**: https://wpbay.com/product/custom-image-upload-addon-for-woocommerce/
 
@@ -198,13 +196,12 @@ When you're ready for unlimited products:
 
 ## Version History
 
-### 1.0.0 (Current)
+### 1.1.0 (Current)
 - Initial Lite version release
 - Single product configuration
 - Full upload functionality
 - Guest upload support
 - Image cropping
-- Upgrade prompts
 
 ---
 
