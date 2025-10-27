@@ -101,7 +101,7 @@ When you're ready for unlimited products:
 
 | Feature | Lite | Pro |
 |---------|------|-----|
-| **Product Configurations** | 1 | Unlimited |
+| **Product Configurations** | Unlimited | Unlimited |
 | **Bulk Configuration** | ✗ | ✓ |
 | **Image Upload** | ✓ | ✓ |
 | **Image Cropping** | ✓ | ✓ |
@@ -111,10 +111,10 @@ When you're ready for unlimited products:
 | **Custom Colors** | ✓ | ✓ |
 | **File Type Control** | ✓ | ✓ |
 | **File Size Limits** | ✓ | ✓ |
-| **Resolution Validation** | ✗ | ✓ |
-| **Import/Export** | ✓ | ✓ |
-| **Security Logs** | ✓ | ✓ |
-| **CDN Caching** | ✓ | ✓ |
+| **Resolution Validation** | ✓ | ✓ |
+| **Import/Export** | ✗ | ✓ |
+| **Security Logs** | ✗ | ✓ |
+| **CDN Caching** | ✗ | ✓ |
 | **Priority Support** | ✗ | ✓ |
 
 ---
