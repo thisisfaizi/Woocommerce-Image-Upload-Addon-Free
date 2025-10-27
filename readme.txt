@@ -84,20 +84,12 @@ Ready for more? [Upgrade to Pro](https://nowdigiverse.com/products/custom-produc
 * **Resolution validation** - Ensure image quality
 * **Priority support** - Get help faster
 
-**Special Launch Offer**: Get 20% off when you upgrade now!
-
 [Learn More →](https://nowdigiverse.com/products/custom-product-image-upload-pro/)
 
-== Screenshots ==
-
-1. Admin interface - Configure your single product
-2. Frontend upload modal with drag-and-drop
-3. Image cropping interface with real-time preview
-4. Upgrade prompts for Pro features
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.1.0 =
 * Initial lite version release
 * Single product configuration support
 * Guest upload functionality
@@ -111,7 +103,7 @@ Ready for more? [Upgrade to Pro](https://nowdigiverse.com/products/custom-produc
 
 == Upgrade Notice ==
 
-= 1.0.0 =
+= 1.1.0 =
 Initial release of the free Lite version. Upgrade to Pro for unlimited products and advanced features!
 
 == Frequently Asked Questions ==
@@ -154,7 +146,7 @@ No, Lite version supports only ONE product configuration. Upgrade to Pro for unl
 
 == Support ==
 
-Need help? Visit our [support page](https://nowdigiverse.com/contact/) or email us at support@nowdigiverse.com
+Need help? Visit our [support page](https://nowdigiverse.com/contact/) or email us at hello@nowdigiverse.com
 
 For Pro users, we offer priority support with faster response times!
 
