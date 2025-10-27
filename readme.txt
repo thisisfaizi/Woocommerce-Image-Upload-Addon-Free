@@ -1,169 +1,169 @@
-=== Custom Product Image Upload ===
+=== Custom Product Image Upload Lite ===
 Contributors: nowdigiverse
-Tags: woocommerce, product, image, upload, cropping, custom, ecommerce, guest, session
+Tags: woocommerce, product, image, upload, cropping, custom, ecommerce, guest
 Requires at least: 5.2
 Tested up to: 6.4
 Requires PHP: 7.2
-Stable tag: 1.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Allow customers (including guests) to upload and crop custom images for WooCommerce products before adding them to cart.
+Free version - Allow customers to upload and crop custom images for ONE WooCommerce product before adding to cart.
 
 == Description ==
 
-Custom Product Image Upload is a powerful WooCommerce extension that enables both logged-in customers and guest users to upload and crop custom images for specific products before adding them to their cart. Perfect for personalized products, custom designs, or any scenario where customers need to provide their own images.
+Custom Product Image Upload Lite is a free WooCommerce extension that enables customers to upload and crop custom images for a specific product before adding it to their cart. Perfect for testing the plugin before upgrading to Pro for unlimited products!
 
-= Key Features =
+= Lite Version Features =
 
-* **Guest Upload Support**: Allow guest users to upload images without requiring account registration
-* **Session-Based Tracking**: Secure guest session management for temporary file storage
-* **Multi-Product Support**: Configure image upload settings for individual WooCommerce products
+* **Single Product Configuration**: Configure image upload for ONE WooCommerce product
+* **Guest Upload Support**: Allow guest users to upload images without registration
 * **Advanced Image Cropping**: Built-in cropper with real-time preview using Cropper.js
-* **Flexible Configuration**: Set allowed file types, image count, file size limits, and resolution requirements
-* **Resolution Validation**: Optional minimum/maximum width and height validation
-* **Custom Styling**: Customizable button text, colors, and styling options
-* **Bulk Management**: Configure multiple products at once with bulk settings
-* **Enhanced Security**: Advanced security with rate limiting, behavior analysis, and guest upload protection
-* **Smart File Management**: Automatic cleanup of abandoned uploads with intelligent preservation
-* **Admin Dashboard**: Comprehensive admin interface for managing all product configurations
-* **Data Management**: Import/export configurations and comprehensive data management tools
-* **Performance Optimized**: CDN caching and optimized asset loading
+* **Drag & Drop Upload**: Modern drag-and-drop interface with multiple file selection
+* **Modal Upload Interface**: Professional modal-based upload experience
+* **Flexible Configuration**: Set allowed file types, image count, and file size limits
+* **Custom Styling**: Customizable button text and colors
+* **Enhanced Security**: Rate limiting and secure file validation
+* **Smart File Management**: Automatic cleanup of abandoned uploads
+* **WooCommerce Integration**: Seamless cart and checkout integration
+* **Mobile Responsive**: Works perfectly on all devices
+
+= Pro Version Features =
+
+Upgrade to Pro to unlock advanced features:
+
+* **Unlimited Products**: Configure as many products as you need
+* **Bulk Operations**: Apply settings to multiple products at once
+* **Resolution Validation**: Set minimum/maximum image dimensions
+* **Import/Export**: Backup and transfer configurations
+* **Security Logs**: Monitor upload attempts and security events
+* **CDN Caching**: Performance optimization with CDN support
+* **Priority Support**: Get help when you need it
+
+[Upgrade to Pro →](https://nowdigiverse.com/products/custom-product-image-upload-pro/)
 
 = Use Cases =
 
 * **Custom T-Shirts**: Customers upload their designs
 * **Photo Products**: Personalized photo books, mugs, or prints
-* **Custom Artwork**: Customers provide their artwork for printing
-* **Logo Products**: Businesses upload logos for branded merchandise
-* **Wedding/Event Products**: Custom invitations or decorations
+* **Custom Artwork**: Customers provide artwork for printing
+* **Logo Products**: Upload logos for branded merchandise
 
-= Technical Features =
+= Lite vs Pro Comparison =
 
-* **WooCommerce Integration**: Seamlessly integrates with WooCommerce cart and checkout
-* **Guest User Support**: Full functionality for non-registered users with session tracking
-* **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-* **Advanced File Security**: Multi-layer security with validation, sanitization, and behavior analysis
-* **Rate Limiting**: Intelligent rate limiting to prevent abuse (10/hour for guests, 50/hour for logged-in users)
-* **Temporary File Management**: Smart cleanup system with 48-hour grace period and order protection
-* **Performance**: Optimized for speed with conditional asset loading and CDN support
-* **Standards Compliant**: Follows WordPress and WooCommerce coding standards
+| Feature | Lite | Pro |
+|---------|------|-----|
+| Product Configurations | 1 | Unlimited |
+| Bulk Operations | ✗ | ✓ |
+| Image Cropping | ✓ | ✓ |
+| Modal Interface | ✓ | ✓ |
+| Drag & Drop Upload | ✓ | ✓ |
+| Custom Colors & Text | ✓ | ✓ |
+| Guest Upload | ✓ | ✓ |
+| Resolution Validation | ✗ | ✓ |
+| Import/Export Settings | ✓ | ✓ |
+| Security Logs | ✓ | ✓ |
+| CDN Caching | ✓ | ✓ |
+| Priority Support | ✗ | ✓ |
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/custom-product-image-upload` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress
+1. Upload the plugin files to `/wp-content/plugins/custom-product-image-upload-lite`, or install through WordPress
+2. Activate the plugin through the 'Plugins' screen
 3. Ensure WooCommerce is installed and activated
-4. Go to WooCommerce > Custom Product Image Upload to configure your first product
-5. Set up image upload settings for your products and start accepting custom images!
+4. Go to WooCommerce > Image Upload Lite to configure your product
+5. Select ONE product and configure upload settings
+6. Customers can now upload images on that product page!
+
+== Upgrade to Pro ==
+
+Ready for more? [Upgrade to Pro](https://nowdigiverse.com/products/custom-product-image-upload-pro/) for:
+
+* **Unlimited product configurations** - No limits!
+* **Bulk operations** - Configure multiple products at once
+* **Resolution validation** - Ensure image quality
+* **Priority support** - Get help faster
+
+**Special Launch Offer**: Get 20% off when you upgrade now!
+
+[Learn More →](https://nowdigiverse.com/products/custom-product-image-upload-pro/)
 
 == Screenshots ==
 
-1. Admin interface showing product configuration
-2. Frontend image upload interface with cropping tool
-3. Bulk configuration settings for multiple products
+1. Admin interface - Configure your single product
+2. Frontend upload modal with drag-and-drop
+3. Image cropping interface with real-time preview
+4. Upgrade prompts for Pro features
 
 == Changelog ==
 
-= 1.1 =
-* NEW: Guest Upload Support - Allow non-registered users to upload images without account creation
-* NEW: Session-Based Tracking - Secure guest session management for temporary file storage
-* NEW: Smart File Management - Automatic cleanup of abandoned uploads with intelligent preservation
-* NEW: Enhanced Security - Advanced rate limiting and behavior analysis for guest uploads
-* NEW: Temporary File System - Automatic cleanup of abandoned uploads with smart preservation logic
-* IMPROVED: User Experience - Seamless upload experience for both logged-in and guest users
-* IMPROVED: Security - Enhanced security measures specifically designed for guest uploads
-* IMPROVED: Performance - Optimized file management with automatic cleanup reducing server storage
-* IMPROVED: Monitoring - Enhanced logging and statistics for guest activity tracking
-* FIXED: Authentication Barriers - Removed authentication requirements for guest uploads while maintaining security
-* Enhanced multi-product support with per-product configurations
-* Improved admin interface with bulk management and 6-tab interface
-* Added resolution validation options and comprehensive file validation
-* Performance optimizations with CDN caching and optimized file management
-* Added comprehensive data management tools with Import/Export functionality
-* Improved mobile responsiveness and seamless user experience
-* Enterprise Security - Multi-layer security implementation with real-time monitoring
-* Security Monitoring - Statistics dashboard, audit trails, and detailed logging
-* Secure Upload Class - Enterprise-grade file validation with content security scanning
-* Enhanced File Validation - Double MIME type validation with finfo_file() and exif_imagetype()
-* Path Traversal Protection - Comprehensive filename and path security
-* Execution Prevention - .htaccess protection and non-executable permissions
-* User Activity Tracking - Monitor unique users and upload patterns with guest activity
-* Failed Attempt Analysis - Security threat detection and monitoring
-* Fixed various bugs and security issues
-
-= 1.0 =
-* Initial release
-* Basic image upload and cropping functionality
+= 1.0.0 =
+* Initial lite version release
+* Single product configuration support
+* Guest upload functionality
+* Image cropping with Cropper.js
+* Modal-based upload interface
+* Drag & drop file selection
+* Custom styling options
+* Enhanced security features
 * WooCommerce integration
-* Admin configuration interface
+* Mobile-responsive design
 
 == Upgrade Notice ==
 
-= 1.1 =
-Major update with guest upload support, enhanced security, and smart file management. Significantly improves user experience by removing authentication barriers while maintaining security. Recommended for all users.
+= 1.0.0 =
+Initial release of the free Lite version. Upgrade to Pro for unlimited products and advanced features!
 
-= 1.1 =
-Major update with enhanced multi-product support, improved security, and performance optimizations. Recommended for all users.
+== Frequently Asked Questions ==
 
-== FAQ ==
+= What's the difference between Lite and Pro? =
 
-= Does this plugin work with WooCommerce? =
+Lite allows you to configure image upload for ONE product only. Pro gives you unlimited products, bulk operations, resolution validation, and priority support.
 
-Yes, this plugin is specifically designed for WooCommerce and requires WooCommerce to be installed and activated.
+= Can I upgrade from Lite to Pro? =
 
-= Can guest users upload images without creating an account? =
+Yes! All your settings and uploaded images are preserved when you upgrade. Simply install Pro and your configuration will work immediately.
 
-Yes! Version 1.2 introduces full guest upload support. Guests can upload images using secure session tracking without needing to register or log in.
+= Does this work with WooCommerce? =
 
-= How are guest uploads managed and secured? =
+Yes, WooCommerce must be installed and activated for this plugin to work.
 
-Guest uploads use session-based tracking with advanced security measures including rate limiting (10 uploads/hour for guests), behavior analysis, and automatic cleanup of abandoned files after 48 hours.
+= Can guests upload without an account? =
 
-= What happens to uploaded files if a guest doesn't complete their order? =
+Yes! Guest users can upload images using secure session tracking without registration.
 
-Files are automatically cleaned up after 48 hours if they're not associated with a completed order or active cart session. This prevents server storage bloat while protecting customer files.
+= How many images can customers upload? =
+
+You configure this per product. Set any number from 1 to 50 images.
 
 = What file types are supported? =
 
-By default, the plugin supports JPEG, PNG, GIF, and WebP images. File types can be configured per product in the admin settings.
+JPEG, PNG, GIF, and WebP by default. You can customize allowed types in settings.
 
-= Can I set different image requirements for different products? =
+= Is there a file size limit? =
 
-Yes, you can configure individual settings for each product including file types, image count, file size limits, and resolution requirements.
+Yes, you can set the maximum file size per product (default is 5MB).
 
-= Is there a limit on file size? =
+= Will I lose my data if I upgrade to Pro? =
 
-Yes, file size limits can be configured per product. The default is 10MB, but this can be adjusted based on your needs.
+No! Your settings, configurations, and uploaded images are 100% preserved when upgrading.
 
-= Are there upload rate limits? =
+= Can I configure more than one product in Lite? =
 
-Yes, to prevent abuse: guests are limited to 10 uploads per hour, while logged-in users can upload up to 50 files per hour.
-
-= Does the plugin work on mobile devices? =
-
-Yes, the plugin is fully responsive and works on desktop, tablet, and mobile devices.
-
-= Can customers crop their images before uploading? =
-
-Yes, the plugin includes a built-in cropper that allows customers to crop their images with a real-time preview.
-
-= Is the plugin secure? =
-
-Yes, the plugin follows WordPress security best practices with multi-layer validation, sanitization, nonce verification, rate limiting, and behavior analysis for both guest and logged-in users.
+No, Lite version supports only ONE product configuration. Upgrade to Pro for unlimited products.
 
 == Support ==
 
-For support, please visit our [support page](https://nowdigiverse.com/contact/) or contact us at [support@nowdigiverse.com](mailto:hello@nowdigiverse.com).
+Need help? Visit our [support page](https://nowdigiverse.com/contact/) or email us at support@nowdigiverse.com
+
+For Pro users, we offer priority support with faster response times!
 
 == Privacy Policy ==
 
-This plugin does not collect or store any personal data beyond what is necessary for its functionality. Uploaded images are stored securely on your server and are not transmitted to third parties. 
-
-For guest users, the plugin creates temporary session identifiers to manage uploads, but no personal information is collected or stored. Guest session data is automatically cleaned up when sessions expire or orders are completed.
+This plugin does not collect or store personal data. Uploaded images are stored securely on your server. Guest sessions use temporary identifiers that are automatically cleaned up.
 
 == Credits ==
 
-* Cropper.js for the image cropping functionality
-* WooCommerce for the e-commerce framework
-* WordPress for the content management system
+* Cropper.js for image cropping
+* WooCommerce for ecommerce framework
+* WordPress for CMS

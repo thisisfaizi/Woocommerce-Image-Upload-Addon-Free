@@ -1026,13 +1026,13 @@ function cpiu_activate() {
     // Show installation notice
     add_option( 'cpiu_show_installation_notice', true );
 }
-register_activation_hook( __FILE__, __NAMESPACE__ . '\\cpiu_activate' );
+register_activation_hook( __FILE__, 'cpiu_activate' );
 
 // Register uninstall hook - handled by uninstall.php
-register_uninstall_hook( __FILE__, __NAMESPACE__ . '\\cpiu_uninstall_plugin' );
+register_uninstall_hook( __FILE__, 'cpiu_uninstall_plugin' );
 
 // Register deactivation hook - NO DATA DELETION on deactivation
-register_deactivation_hook( __FILE__, __NAMESPACE__ . '\\cpiu_deactivate' );
+register_deactivation_hook( __FILE__, 'cpiu_deactivate' );
 
 /**
  * Actions on plugin deactivation.
